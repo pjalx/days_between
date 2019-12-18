@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.main_container {
+    height: 100vh;
+    min-width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: darkslateblue;
+}
+
+.mid_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+    background: ghostwhite;
+    border-top: 5px solid chartreuse;
+    border-bottom: 5px solid chartreuse;
+}
+
+.between {
+    text-align: center;
+}
+
+#include_from {
+    margin-left: 0px;
+}
